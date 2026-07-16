@@ -171,10 +171,10 @@ jobs:
             mkdir -p "$ROM_PATH"
             cd "$ROM_PATH"
             repo init \
-              -u https://android.googlesource.com/platform/manifest.git \
+              -u https://github.com/accupara/los22.git \
               -b master \
               --depth=1
-            crave set --projectID 35
+            crave set --projectID 93
             echo "Setup selesai."
           fi
 
